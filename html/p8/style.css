@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.icon{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    margin-top: -250px
+}
+
+.icon i{
+    width: 200px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgb(117, 110, 110);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 50px;
+    color: rgb(12, 218, 184);
+    cursor: pointer;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+        0 0 200px #0072ff;
+    animation-delay: 0.3s;
+}
+
+@keyframes animate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+h1 {
+    color: rgb(53, 241, 16);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    animation: animate 3s linear infinite;
+    animation-delay: 0.3s;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}

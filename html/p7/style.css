@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+body {
+    background-color: #3a5b8d;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+.login {
+    width: 300px; 
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login h1 {
+    margin-bottom: 20px;
+    font-family: "Jersey 20", sans-serif;
+    color: #f46b42;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+h2 {
+    margin-right: 10px;
+    font-family: "Jersey 20", sans-serif;
+    color: #5f6368; 
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 30px); 
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #dfe1e5; 
+    margin-bottom: 10px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4285f4; 
+}
+
+input::placeholder {
+    color: #b9bbbe; 
+}
+
+button[type="submit"] {
+    background-color: #4285f4; 
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #3c79d8;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+input::placeholder {
+    color: #4285f4;
+}
